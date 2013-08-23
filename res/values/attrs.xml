@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SettingsEntry">
+        <attr name="label" format="string" />
+        <attr name="value" format="string" />
+    </declare-styleable>
+    
+    <declare-styleable name="SquareGridLayout">
+        <attr name="size" format="integer" />
+    </declare-styleable>
+    
+        <declare-styleable name="AdjustedGridLayout">
+        <attr name="columns" format="integer" />
+    </declare-styleable>
+    
+    <style name="TourDescription" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/autographer_dark_gray</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="TourTitle" parent="TourDescription">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="SettingsLabel" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@drawable/text_item_selector</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    
+    <style name="GalleryTitle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/autographer_main_blue</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="SettingsValue" parent="SettingsLabel">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textStyle"></item>
+        <item name="android:gravity">right</item>
+    </style>
+
+    <style name="SettingsEntryLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:layout_marginBottom">1dp</item>
+        <item name="android:layout_marginLeft">2dp</item>
+        <item name="android:layout_marginRight">2dp</item>
+        <item name="android:background">@drawable/item_selector</item>
+    </style>
+
+    <style name="BottomBarButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="YellowButton" parent="@android:style/Widget.Button">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@drawable/black_white_selector</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@color/autographer_yellow</item>
+    </style>
+    
+    <style name="TopShadow">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">5dp</item>
+        <item name="android:layout_gravity">top</item>
+        <item name="android:background">@drawable/top_shadow</item>
+    </style>
+    
+    <style name="BottomShadow" parent = "TopShadow">
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:background">@drawable/bottom_shadow</item>
+    </style>
+
+</resources>

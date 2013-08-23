@@ -1,0 +1,120 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" xmlns:app="http://schemas.android.com/apk/res/com.omg.autographer">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/autographer_light_gray_bg" >
+
+        <FrameLayout
+            android:id="@+id/body"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <FrameLayout
+                    android:id="@+id/contentLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2" >
+
+                    <LinearLayout
+                        android:id="@+id/waitingLayout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="vertical" >
+
+                        <com.omg.autographer.gui.Loader
+                            android:id="@+id/loader1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center" />
+
+                        <TextView
+                            android:id="@+id/leftText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="15dp"
+                            android:layout_weight="0"
+                            android:text="Waiting for devices"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/autographer_dark_gray" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/connectLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:padding="30dp"
+                        android:visibility="gone" >
+
+                        <ImageView
+                            android:id="@+id/deleteButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:src="@drawable/autographer" />
+
+                        <TextView
+                            android:id="@+id/textView1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="15dp"
+                            android:layout_weight="0"
+                            android:text="device name"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/autographer_dark_gray" />
+
+                    </LinearLayout>
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="7" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/mainButton"
+                            style="@style/YellowButton"
+                            android:layout_width="160dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:text="@string/Autographer_get_started"/>
+
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/topShadow"
+            style="@style/TopShadow" >
+
+        </FrameLayout>
+
+    </FrameLayout>
+
+</RelativeLayout>

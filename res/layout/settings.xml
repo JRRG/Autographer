@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/TextView13"
+            style="@style/SettingsEntryLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="#FFF"
+            android:gravity="left|center_vertical"
+            android:text="autog 34"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/autographer_main_blue"
+            android:textStyle="bold" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ScrollView
+                android:id="@+id/scrollView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/autographer_dark_gray"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        style="@style/SettingsEntryLayout"
+                        android:layout_width="match_parent"
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="2dp"
+                        android:background="@color/autographer_gray_bg" >
+
+                        <TextView
+                            android:id="@+id/TextView10"
+                            style="@style/SettingsLabel"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:text="@string/Autographer_date_amp_time"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                        <TextView
+                            android:id="@+id/TextView09"
+                            style="@style/SettingsValue"
+                            android:layout_gravity="center_vertical"
+                            android:text="Medium Text"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/SettingsEntryLayout"
+                        android:layout_width="match_parent" >
+
+                        <TextView
+                            android:id="@+id/TextView08"
+                            style="@style/SettingsLabel"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/Autographer_battery_level"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                        <TextView
+                            android:id="@+id/TextView07"
+                            style="@style/SettingsValue"
+                            android:text="Medium Text"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/SettingsEntryLayout"
+                        android:layout_width="match_parent" >
+
+                        <TextView
+                            android:id="@+id/TextView06"
+                            style="@style/SettingsLabel"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/Autographer_capacity"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                        <TextView
+                            android:id="@+id/TextView05"
+                            style="@style/SettingsValue"
+                            android:text="Medium Text"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/SettingsEntryLayout"
+                        android:layout_width="match_parent" >
+
+                        <TextView
+                            android:id="@+id/TextView04"
+                            style="@style/SettingsLabel"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/Autographer_available"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                        <TextView
+                            android:id="@+id/TextView03"
+                            style="@style/SettingsValue"
+                            android:text="Medium Text"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/SettingsEntryLayout"
+                        android:layout_width="match_parent" >
+
+                        <TextView
+                            android:id="@+id/TextView02"
+                            style="@style/SettingsLabel"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/Autographer_firmware"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                        <TextView
+                            android:id="@+id/leftText"
+                            style="@style/SettingsValue"
+                            android:text="Medium Text"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/SettingsEntryLayout"
+                        android:layout_width="match_parent" >
+
+                        <TextView
+                            android:id="@+id/textView1"
+                            style="@style/SettingsLabel"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/Autographer_serial_number"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            style="@style/SettingsValue"
+                            android:text="Medium Text"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/SettingsEntryLayout"
+                        android:layout_width="match_parent" >
+
+                        <TextView
+                            android:id="@+id/TextView12"
+                            style="@style/SettingsLabel"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/Autographer_bluetooth_mac"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                        <TextView
+                            android:id="@+id/TextView11"
+                            style="@style/SettingsValue"
+                            android:text="Medium Text"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        style="@style/SettingsEntryLayout"
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:background="#444"
+                        android:gravity="center"
+                        android:text="@string/Autographer_reset_to_factory_defaults"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#FFF" />
+
+                </LinearLayout>
+            </ScrollView>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@drawable/top_shadow" >
+            </FrameLayout>
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <FrameLayout style="@style/TopShadow" >
+
+    </FrameLayout>
+
+</FrameLayout>

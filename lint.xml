@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ContentDescription">
+        <ignore path="res/layout/bottom_gallery_bar.xml" />
+        <ignore path="res/layout/get_started.xml" />
+        <ignore path="res/layout/main_activity.xml" />
+        <ignore path="res/layout/tour.xml" />
+    </issue>
+    <issue id="InefficientWeight">
+        <ignore path="res/layout/get_started.xml" />
+        <ignore path="res/layout/tour.xml" />
+    </issue>
+    <issue id="NestedWeights">
+        <ignore path="res/layout/get_started.xml" />
+        <ignore path="res/layout/tour.xml" />
+    </issue>
+    <issue id="UselessParent">
+        <ignore path="res/layout/tour.xml" />
+    </issue>
+</lint>

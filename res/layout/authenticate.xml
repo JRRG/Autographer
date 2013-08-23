@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/autographer_gray_bg"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="30dp"
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp"
+        android:paddingTop="50dp" >
+
+        <EditText
+            android:id="@+id/tagEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/autographer_yellow"
+            android:gravity="center"
+            android:inputType="number"
+            android:text="8888"
+            android:textColor="#426BF2"
+            android:textSize="60sp" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center"
+        android:text="Enter the 4-digit code as displayed on your Autographer"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/autographer_gray_text" />
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <com.omg.autographer.gui.NonSwipeableViewPager
+                android:id="@+id/galleryFlipper"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <FrameLayout style="@style/BottomShadow" >
+            </FrameLayout>
+        </FrameLayout>
+
+        <include
+            android:id="@+id/scrollBottomBar"
+            android:layout_width="match_parent"
+            android:layout_weight="0"
+            layout="@layout/bottom_gallery_bar" />
+
+        <include
+            android:id="@+id/selectionBottomBar"
+            android:layout_width="match_parent"
+            android:layout_weight="0"
+            layout="@layout/bottom_selection_bar" />
+
+    </LinearLayout>
+
+    <FrameLayout style="@style/TopShadow" >
+    </FrameLayout>
+
+</FrameLayout>

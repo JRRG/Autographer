@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Autographer</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello GUIT world!</string>
+
+    
+    <string name="AutographerLoremIpsumShort">Lorem ipsum dolor</string>
+    <string name="AutographerLoremIpsum">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla pariatur.</string>
+    <string name="Autographer_get_started">Get Started</string>
+    <string name="Autographer_date_amp_time">Date &amp; Time</string>
+    <string name="Autographer_battery_level">Battery Level</string>
+    <string name="Autographer_capacity">Capacity</string>
+    <string name="Autographer_available">Available</string>
+    <string name="Autographer_firmware">Firmware</string>
+    <string name="Autographer_serial_number">Serial Number</string>
+    <string name="Autographer_bluetooth_mac">Bluetooth MAC</string>
+    <string name="Autographer_reset_to_factory_defaults">Reset to factory defaults</string>
+    <string name="Autographer_welcome">Welcome</string>
+    <string name="Autographer_chapter_view">Chapter View</string>
+    <string name="Autographer_stream_view">Stream View</string>
+    <string name="Autographer_create_amp_share">Create &amp; Share</string>
+    <string name="Autographer_tags_amp_favourites">Tags &amp; Favourites</string>
+    <string name="Autographer_the_autographer_app_communicates___">The Autographer app communicates with your camera via Bluetooth. It lets you review, tag and share images when you\'re on the go.</string>
+    <string name="Autographer_see_all_your_images___">See all your images distilled into chapters for quick access.</string>
+    <string name="Autographer_browse_images_on_your_autographer___">Browse images on your Autographer in chronological order. To preserve space on your Android device, this app does not save the images automatically.</string>
+    <string name="Autographer_select_a_single_image_or_use_several___">Select a single image or use several to create GIF\'s and stop frame videos. Share these directly from your phone.</string>
+    <string name="Autographer_you_can_also_tag_images___">You can also tag images and mark your favourites for later.</string>
+    <string name="Autographer_the_following_screen_will_display_a_list___">The following screen will display a list of nearby Bluetooth devices available for pairing. Select your Autographer from the list to pair with your Android device.</string>
+    <string name="Autographer_next">Next</string>
+    <string name="Autographer_done">Done</string>
+    <string name="Autographer_connect">Connect</string>
+    <string name="Autographer_about">About</string>
+    <string name="Main_Activity">MainActivity</string>
+    <string name="Autographer_support">Support</string>
+    <string name="Autographer_report_errors_and_usage">Report errors and usage</string>
+    <string name="Autographer_autographer_x_x_x">Autographer x.x.x</string>
+    <string name="Autographer_copyright_2013_omg_plc">Copyright © 2013 OMG Plc</string>
+    <string name="Autographer_autographer_support">Autographer Support</string>
+    <string name="Autographer_settings">Settings</string>
+    <string name="Autographer_chapters">Chapters</string>
+    <string name="Autographer_stream">Stream</string>
+    <string name="Autographer_select">Select</string>
+    <string name="Autographer_tags">Tags</string>
+    <string name="Autographer_clear">Clear</string>
+    <string name="Autographer_select_images">Select Images</string>
+    
+    <plurals
+        name="Autographer_d_images">
+        <item quantity="one">%d Image</item>
+        <item quantity="other">%d  Images</item>
+    </plurals>
+    
+    
+    
+</resources>

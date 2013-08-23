@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/mapLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/capture_info"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:id="@+id/mapContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <fragment
+                    android:id="@+id/map"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    class="com.google.android.gms.maps.SupportMapFragment" />
+
+                <FrameLayout
+                    android:id="@+id/mapShadowBottom"
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:layout_gravity="bottom"
+                    android:background="@drawable/bottom_shadow" >
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/mapShadowTop"
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="@drawable/top_shadow" >
+                </FrameLayout>
+
+            </FrameLayout>
+
+            <include
+                android:id="@+id/bottomPhotoBar"
+                android:layout_width="match_parent"
+                android:layout_weight="0"
+                layout="@layout/bottom_photo_bar" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/slidePageContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-20dp" >
+
+            <include
+                android:id="@+id/captureInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                layout="@layout/capture_info" />
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/pager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@id/captureInfo"
+                android:layout_marginBottom="-21dp"
+                android:layout_marginLeft="-6dp" >
+
+            </android.support.v4.view.ViewPager>
+
+            <FrameLayout
+                android:id="@+id/slideShadowTop"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@drawable/top_shadow" >
+            </FrameLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

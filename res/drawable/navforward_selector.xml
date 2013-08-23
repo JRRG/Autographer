@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/navforwardtransparent" android:state_enabled="false"/>
+    <item android:drawable="@drawable/navforwardyellow" android:state_pressed="true"/>
+    <item android:drawable="@drawable/navforward"/>
+</selector>

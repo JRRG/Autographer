@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/tagButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@color/autographer_main_gray"
+            android:src="@drawable/heading" />
+
+        <TextView
+            android:id="@+id/leftText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="left|center_vertical"
+            android:text="51.505420 LAT, -0.131660 LNG"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/autographer_dark_gray"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/ImageView05"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@color/autographer_main_blue"
+            android:src="@drawable/accelerometer" />
+
+        <TextView
+            android:id="@+id/TextView05"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="left|center_vertical"
+            android:text="-0.06x 0.19y -0.25z"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/autographer_main_blue"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/shareButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@color/autographer_main_red"
+            android:src="@drawable/luminance" />
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="left|center_vertical"
+            android:text="1.00 Light"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/autographer_main_red"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/favouriteButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@color/autographer_main_yellow"
+            android:src="@drawable/magnetometer" />
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="left|center_vertical"
+            android:text="0.14x -1.08y 0.17z"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/autographer_main_yellow"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/playButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@color/autographer_main_purple"
+            android:src="@drawable/pir" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="left|center_vertical"
+            android:text="PIR On"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/autographer_main_purple"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/deleteButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@color/autographer_main_dark_blue"
+            android:src="@drawable/temperature" />
+
+        <TextView
+            android:id="@+id/label"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="left|center_vertical"
+            android:text="14.0 ºC"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/autographer_main_dark_blue"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

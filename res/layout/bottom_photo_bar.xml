@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:layout_gravity="bottom"
+    android:background="@color/autographer_black_gray"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/shareButton"
+        style="@style/BottomBarButton"
+        android:layout_width="match_parent"
+        android:src="@drawable/share_selector" />
+
+    <ImageView
+        android:id="@+id/favouriteButton"
+        style="@style/BottomBarButton"
+        android:layout_width="match_parent"
+        android:src="@drawable/favourite_selector" />
+
+    <ImageView
+        android:id="@+id/playButton"
+        style="@style/BottomBarButton"
+        android:layout_width="match_parent"
+        android:src="@drawable/play_selector" />
+
+    <ImageView
+        android:id="@+id/tagButton"
+        style="@style/BottomBarButton"
+        android:layout_width="match_parent"
+        android:src="@drawable/tag_selector" />
+
+    <ImageView
+        android:id="@+id/deleteButton"
+        style="@style/BottomBarButton"
+        android:layout_width="match_parent"
+        android:src="@drawable/bin_selector" />
+
+</LinearLayout>

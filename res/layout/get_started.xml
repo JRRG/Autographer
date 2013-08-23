@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/autographer_light_gray_bg" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ViewFlipper
+            android:id="@+id/pictureFlipper"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2" >
+
+            <ImageView
+                android:id="@+id/deleteButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:adjustViewBounds="true"
+                android:cropToPadding="false"
+                android:scaleType="fitCenter"
+                android:src="@drawable/tour1" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/tour2" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/tour3" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/tour4" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/tour5" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/tour6" />
+        </ViewFlipper>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_weight="4"
+            android:orientation="vertical" >
+
+            <ViewFlipper
+                android:id="@+id/titleFlipper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/leftText"
+                    style="@style/TourTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Autographer_welcome" />
+
+                <TextView
+                    android:id="@+id/TextView02"
+                    style="@style/TourTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Autographer_chapter_view" />
+
+                <TextView
+                    android:id="@+id/TextView05"
+                    style="@style/TourTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Autographer_stream_view" />
+
+                <TextView
+                    android:id="@+id/TextView04"
+                    style="@style/TourTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Autographer_create_amp_share" />
+
+                <TextView
+                    android:id="@+id/TextView07"
+                    style="@style/TourTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Autographer_tags_amp_favourites" />
+
+                <TextView
+                    android:id="@+id/TextView06"
+                    style="@style/TourTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Autographer_get_started" />
+            </ViewFlipper>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/autographer_dark_gray" >
+
+            </FrameLayout>
+
+            <ViewFlipper
+                android:id="@+id/descriptionFlipper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/label"
+                    style="@style/TourDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Autographer_the_autographer_app_communicates___" />
+
+                <TextView
+                    android:id="@+id/TextView03"
+                    style="@style/TourDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Autographer_see_all_your_images___" />
+
+                <TextView
+                    android:id="@+id/TextView08"
+                    style="@style/TourDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Autographer_browse_images_on_your_autographer___" />
+
+                <TextView
+                    android:id="@+id/TextView09"
+                    style="@style/TourDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Autographer_select_a_single_image_or_use_several___" />
+
+                <TextView
+                    android:id="@+id/TextView10"
+                    style="@style/TourDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Autographer_you_can_also_tag_images___" />
+
+                <TextView
+                    android:id="@+id/TextView11"
+                    style="@style/TourDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Autographer_the_following_screen_will_display_a_list___" />
+            </ViewFlipper>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="0" >
+
+                <ImageView
+                    android:id="@+id/dot1"
+                    android:layout_width="6dp"
+                    android:layout_height="6dp"
+                    android:layout_gravity="bottom"
+                    android:layout_margin="4dp"
+                    android:src="@drawable/lightdot" />
+
+                <ImageView
+                    android:id="@+id/dot2"
+                    android:layout_width="6dp"
+                    android:layout_height="6dp"
+                    android:layout_gravity="bottom"
+                    android:layout_margin="4dp"
+                    android:src="@drawable/lightdot" />
+
+                <ImageView
+                    android:id="@+id/dot3"
+                    android:layout_width="6dp"
+                    android:layout_height="6dp"
+                    android:layout_gravity="bottom"
+                    android:layout_margin="4dp"
+                    android:src="@drawable/lightdot" />
+
+                <ImageView
+                    android:id="@+id/dot4"
+                    android:layout_width="6dp"
+                    android:layout_height="6dp"
+                    android:layout_gravity="bottom"
+                    android:layout_margin="4dp"
+                    android:src="@drawable/lightdot" />
+
+                <ImageView
+                    android:id="@+id/dot5"
+                    android:layout_width="6dp"
+                    android:layout_height="6dp"
+                    android:layout_gravity="bottom"
+                    android:layout_margin="4dp"
+                    android:src="@drawable/lightdot" />
+
+                <ImageView
+                    android:id="@+id/dot6"
+                    android:layout_width="6dp"
+                    android:layout_height="6dp"
+                    android:layout_gravity="bottom"
+                    android:layout_margin="4dp"
+                    android:src="@drawable/lightdot" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/topShadow"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@drawable/top_shadow" >
+    </FrameLayout>
+
+</FrameLayout>
